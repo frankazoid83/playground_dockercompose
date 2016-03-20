@@ -1,4 +1,9 @@
 #!/bin/bash
 
+
+
 docker images
-docker run frankazoid83/docker-whale
+mkdir $1
+cd $1
+touch Dockerfile
+
